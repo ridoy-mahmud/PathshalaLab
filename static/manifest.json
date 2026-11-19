@@ -1,0 +1,14 @@
+{
+  "name": "পাঠশালা — সরকারি চাকরি পরীক্ষা প্রস্তুতি",
+  "short_name": "পাঠশালা",
+  "description": "যাচাইকৃত উত্তরসহ বাংলাদেশ সরকারি চাকরি পরীক্ষার MCQ প্র্যাকটিস",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1b1c24",
+  "theme_color": "#9333ea",
+  "lang": "bn-BD",
+  "icons": [
+    { "src": "/icons/logo-aubergine.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

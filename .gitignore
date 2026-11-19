@@ -1,0 +1,31 @@
+# Rust build output
+/target/
+
+# Runtime databases contain the question corpus and local user activity.
+/data/*.db
+/data/*.db-*
+/data/*.sqlite
+/data/*.sqlite-*
+/data/*.sqlite3
+/data/*.sqlite3-*
+/pathshala.pid
+*.log
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/secrets/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated design tooling state and visual captures
+/.impeccable/

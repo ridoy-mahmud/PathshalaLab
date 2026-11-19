@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="Pathshala logo">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#c084fc"/>
+   <stop offset="0.55" stop-color="#9333ea"/>
+   <stop offset="1" stop-color="#6d28d9"/>
+  </linearGradient>
+  <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#ffffff"/>
+   <stop offset="1" stop-color="#f3e8ff"/>
+  </linearGradient>
+ </defs>
+ <rect x="4" y="4" width="120" height="120" rx="30" fill="url(#bg)"/>
+ <rect x="13.5" y="13.5" width="101" height="101" rx="23" fill="none" stroke="#e9d5ff" stroke-opacity=".55" stroke-width="1.5"/>
+ <!-- open book -->
+ <path d="M22 43c12-6 24-6 34 1v52c-10-7-22-7-34-1z" fill="url(#page)"/>
+ <path d="M106 43c-12-6-24-6-34 1v52c10-7 22-7 34-1z" fill="url(#page)" opacity=".92"/>
+ <path d="M56 44v52" stroke="#6d28d9" stroke-width="2" opacity=".35"/>
+ <path d="M29 53c8-3 16-3 22 1M29 64c8-3 16-3 22 1M29 75c8-3 16-3 22 1" stroke="#9333ea" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+ <path d="M77 54c6-4 14-4 22-1M77 65c6-4 14-4 22-1M77 76c6-4 14-4 22-1" stroke="#9333ea" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+ <!-- verified seal — a flat mark, no glow -->
+ <circle cx="92" cy="30" r="12" fill="#a855f7"/>
+ <path d="M86.5 30.2l3.8 3.8 7.4-8.2" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+ <!-- Bengali monogram -->
+ <text x="64" y="103" text-anchor="middle" font-family="Hind Shiliguri, Noto Sans Bengali, sans-serif" font-size="26" font-weight="700" fill="#6d28d9">প</text>
+</svg>
